@@ -6,7 +6,42 @@ grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
 
+body {
+  margin: 0 auto;
+}
 img {
-  display: block;
-  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px;
+}
+
+.description {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: inherit;
+  background: transparent;
+  border: 1px solid lightgray;
+  line-height: inherit;
+  padding: 0.75em 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
 }
